@@ -6,11 +6,11 @@ public class WeatherActivitis extends AppCompatActivity {
     @Override
     protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_weather_activitis);
 
         Log.i("MainActivity Lifecycle", "===== onCreate =====");
-        ForecastFragment firstFragment = new ForecastFragment();
-        getSupportFragmentManager().beginTransaction().add(R.id.container, firstFragment).commit();
+        ForecastFragment forecastFragment = new ForecastFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.container, forecastFragment).commit();
     }
     @Override
     protected void onStart() {
