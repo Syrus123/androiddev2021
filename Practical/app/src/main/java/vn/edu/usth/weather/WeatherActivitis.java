@@ -9,8 +9,7 @@ public class WeatherActivitis extends AppCompatActivity {
         setContentView(R.layout.activity_weather_activitis);
 
         Log.i("MainActivity Lifecycle", "===== onCreate =====");
-        ForecastFragment forecastFragment = new ForecastFragment();
-        getSupportFragmentManager().beginTransaction().add(R.id.container, forecastFragment).commit();
+
     }
     @Override
     protected void onStart() {
