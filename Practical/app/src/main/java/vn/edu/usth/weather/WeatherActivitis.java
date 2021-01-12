@@ -8,6 +8,7 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 import android.util.Log;
+import android.media.MediaPlayer;
 import com.google.android.material.tabs.TabLayout;
 public class WeatherActivitis extends AppCompatActivity {
     @Override
@@ -18,11 +19,13 @@ public class WeatherActivitis extends AppCompatActivity {
         ViewPager pager = (ViewPager) findViewById(R.id.pager);
         pager.setOffscreenPageLimit(3);
         pager.setAdapter(adapter);
-
         Log.i("create", "onCreate: ");
-
+        MediaPlayer mp= MediaPlayer.create(this,R.raw.niuduyen);
+        mp.start();
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab);
         tabLayout.setupWithViewPager(pager);
+
+
     }
      protected void onDestroy() {
         super.onDestroy();
