@@ -1,6 +1,23 @@
 <resources>
     <string name="app_name">USTH Weather</string>
+    <string name="cloudy">Mây</string>
+    <string name="sunny">Nắng</string>
+    <string name="rainy">Mưa</string>
+    <string name="Mon">Thứ 2</string>
+    <string name="Tue">Thứ 3</string>
+    <string name="Wed">Thứ 4</string>
+    <string name="Thu">Thứ 5</string>
+    <string name="Fri">Thứ 6</string>
+    <string name="Sat">Thứ 7</string>
+    <string name="Sun">Chủ nhật</string>
+    <string name="Cloudy">Mây</string>
+    <string name="Rain">Mưa</string>
+    <string name="ScatteredShowers">Mưa mưa</string>
+    <string name="Sunny">Nắng</string>
+    <string name="PartlyCloudy">Ít Mây</string>
+    <string name="MostlyCloudy">Nhiều Mây</string>
+    <string name="Thunderstorm">Sấm sét</string>
+    <string name="Hanoi"> Hà Nội</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

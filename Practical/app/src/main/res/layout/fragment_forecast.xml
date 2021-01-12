@@ -17,9 +17,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Mon"/>
-
-
+            android:text="@string/Mon"/>
         <ImageView
             android:id="@+id/img1"
             android:layout_width="50dp"
@@ -40,7 +38,7 @@
                 android:id="@+id/txt1.1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Cloudy"></TextView>
+                android:text="@string/Cloudy"></TextView>
 
             <TextView
                 android:id="@+id/txt1.2"
@@ -62,7 +60,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Tue"/>
+            android:text="@string/Tue"/>
 
 
         <ImageView
@@ -85,7 +83,7 @@
                 android:id="@+id/txt2.1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Rain"></TextView>
+                android:text="@string/Rain"></TextView>
 
             <TextView
                 android:id="@+id/txt2.2"
@@ -107,7 +105,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Wed"/>
+            android:text="@string/Wed"/>
 
 
         <ImageView
@@ -130,7 +128,7 @@
                 android:id="@+id/txt3.1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Rain"></TextView>
+                android:text="@string/Rain"></TextView>
 
             <TextView
                 android:id="@+id/txt3.2"
@@ -152,7 +150,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Thu"/>
+            android:text="@string/Thu"/>
 
 
         <ImageView
@@ -175,7 +173,7 @@
                 android:id="@+id/txt4.1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Scattered Showers"></TextView>
+                android:text="@string/ScatteredShowers"></TextView>
 
             <TextView
                 android:id="@+id/txt4.2"
@@ -197,7 +195,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Fri"/>
+            android:text="@string/Fri"/>
 
 
         <ImageView
@@ -220,7 +218,7 @@
                 android:id="@+id/txt5.1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mostly Cloudy"></TextView>
+                android:text="@string/MostlyCloudy"></TextView>
 
             <TextView
                 android:id="@+id/txt5.2"
@@ -242,7 +240,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Sat"/>
+            android:text="@string/Sat"/>
 
 
         <ImageView
@@ -265,7 +263,7 @@
                 android:id="@+id/txt6.1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Partly Cloudy"></TextView>
+                android:text="@string/PartlyCloudy"></TextView>
 
             <TextView
                 android:id="@+id/txt6.2"
@@ -287,7 +285,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Sun"/>
+            android:text="@string/Sun"/>
 
 
         <ImageView
@@ -310,7 +308,7 @@
                 android:id="@+id/txt7.1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Thunderstorm"></TextView>
+                android:text="@string/Thunderstorm"></TextView>
 
             <TextView
                 android:id="@+id/txt7.2"
@@ -332,7 +330,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Mon"/>
+            android:text="@string/Mon"/>
 
 
         <ImageView
@@ -355,7 +353,7 @@
                 android:id="@+id/txt8.1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Partly Cloudy"></TextView>
+                android:text="@string/PartlyCloudy"></TextView>
 
             <TextView
                 android:id="@+id/txt8.2"
@@ -377,7 +375,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Tue"/>
+            android:text="@string/Tue"/>
 
 
         <ImageView
@@ -400,7 +398,7 @@
                 android:id="@+id/txt9.1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Sunny"></TextView>
+                android:text="@string/Sunny"></TextView>
 
             <TextView
                 android:id="@+id/txt9.2"
@@ -422,7 +420,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Wed"/>
+            android:text="@string/Wed"/>
 
 
         <ImageView

@@ -11,12 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
+            android:id="@+id/t1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:textSize="20sp"
-            android:text="12C\nCloudy" />
+            android:text="12C" />
+         <TextView
+             android:id="@+id/t2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/t1"
+             android:textSize="20sp"
+             android:text="@string/Cloudy" />
         <ImageView
             android:id="@+id/image"
             android:layout_width="200dp"
@@ -30,6 +38,6 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:textSize="20sp"
-            android:text="Hanoi"/>
+            android:text="@string/Hanoi"/>
     </RelativeLayout>
 </LinearLayout>
